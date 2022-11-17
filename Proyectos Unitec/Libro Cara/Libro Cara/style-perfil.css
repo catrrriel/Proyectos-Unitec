@@ -1,0 +1,52 @@
+/* <div class="perfil">
+<div class="portada"></div>
+<div class="informacion">
+<p>nombre y apellido</p>
+</div>
+<div class="imagen-perfil"></div>
+</div> */
+
+.perfil {
+  width: 350px;
+  height: 500px;
+  background-color: rgb(216, 216, 216);
+
+  border-radius: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+
+  display: flex;
+  flex-direction: column;
+
+  position: relative;
+}
+
+
+.informacion {
+  flex-grow: 0.65;
+  padding-top: 50px;
+  padding-left: 20px;
+}
+.imagen-perfil {
+  width: 100px;
+  height: 100px;
+  background: none;
+  position: absolute;
+  border: none;
+
+  top: 35%;
+  left: 20px;
+  transform: translateY(-50%);
+
+  border-radius: 10px;
+  z-index: 52;
+
+  border-radius: 100%;
+  overflow: hidden;
+}
+
+.imagen-perfil img {
+  width: 100px;
+  height: 100px;
+}

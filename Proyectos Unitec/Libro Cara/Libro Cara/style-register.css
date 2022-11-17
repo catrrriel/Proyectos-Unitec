@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Ruda&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Vesper+Libre&display=swap');
+
+
+body {
+  background-color: #3b5998;
+  font-family: 'Vesper Libre', serif;
+}
+
+.pagina {
+  background-color: #ccdeff;
+  margin: 25px auto;
+  padding: 25px;
+  width: 350px;
+  border-radius: 15px;
+}
+
+
+.btns {
+  color: white;
+  border: none;
+  background-color: rgb(116, 206, 128);
+  border-radius: 10px;
+  cursor: pointer;
+  height: 30px;
+
+}
+
+form input{
+font-size: 15px;
+}
+.btn-send:hover ,a:hover {
+cursor: pointer;
+background-color: rgb(35, 47, 169);
+}
+
+.username, .usersurname{
+width: 45%;
+}
+
+.password, .email{
+  width: 93%;
+}
+
+
+
+

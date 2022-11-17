@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style-login.css" />
+    <link rel="stylesheet" href="style-portada.css" />
+    <link rel="stylesheet" href="style-perfil.css" />
+  
+    <title>Document</title>
+  </head>
+  <body>
+    <nav>
+      <h3>LibroCara</h3>
+      <form class="user-form">
+        <div>
+          <label>Correo electronico</label
+          ><input type="text" id="user" class="input" />
+        </div>
+        <div>
+          <label>Contraseña</label><input type="password" id="password" class="input" />
+        </div>
+        <input class="btn-login btns" type="submit" value="Entrar" />
+        <a>o</a>
+        <input class="btn-register btns" type="button" id="btn-register" value="Registrarse"></input>
+      </form>
+    </nav>
+    <main class="">
+      <div class="perfil">
+        <div class="portada"></div>
+        <div class="informacion">
+          <p class="userName"></p>
+          <button class="btn-img-portada btn-upload-img" data-imgContainer="imagen-portada"><img src="camara.jpg" class="img-portada">Editar foto portada</button>
+          <button class="btn-img-perfil btn-upload-img" data-imgContainer="imagen-perfil"><img src="camara.jpg" class="img-perfil"></button>
+        <div clas="state">
+          <input type="text" id="texto" placeholder="Que estas pensando?" ></input>   
+          <button class="addbtn" type="button"  onclick="Send();">Publicar</button>
+          <div id="resultado"></div>
+        </div>
+        </div>
+        <div class="imagen-perfil"><img src="descargaa.jpg" ></div>
+        <div class="imagen-portada"><img src="descargaa.jpg"></div>
+        <div class="resultado"></div>
+        
+      </div>
+
+
+    </main>
+  </body>
+  <script src="script-imgs.js"></script>
+  <script src="script-verifycate.js"></script>
+  
+</html>

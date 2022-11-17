@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+body {
+  /* font-family: "Lato", sans-serif; */
+  background-color: rgb(207, 118, 118);
+  font-family: "Press Start 2P", cursive;
+}
+button {
+  font-family: "Press Start 2P", cursive;
+}
+
+*:first-letter {
+  text-transform: capitalize;
+}
+
+.pagina {
+  margin: 25px auto;
+  padding: 25px;
+  background-color: rgb(126, 106, 120);
+  width: 350px;
+  border-radius: 10px;
+}
+
+.h1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+form {
+  margin: 20px 0;
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: auto 35px auto;
+  grid-column-gap: 15px;
+}
+
+input {
+  border: none;
+  padding-left: 10px;
+  background-color: rgb(164, 140, 140);
+  border-radius: 10px;
+}
+
+input:focus {
+  outline: none;
+}
+
+.addbtn,
+.clrbtn {
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.addbtn {
+  height: 35px;
+  border-radius: 50%;
+  font-size: 18px;
+  background-color: rgb(91, 78, 165);
+}
+
+.addbtn:hover {
+  cursor: pointer;
+  background-color: rgb(35, 47, 169);
+}
+
+.clrbtn {
+  background-color: rgb(171, 103, 103);
+  border-radius: 10px;
+}
+
+.clrbtn:hover {
+  cursor: pointer;
+  background-color: rgb(178, 32, 32);
+}
+
+/* p {
+  background-color: rgb(164, 140, 140);
+  padding: 15px;
+  margin-top: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+} */
+
+/* aaaaaaaaaaaaaaaaaaaaaaaaaaa */
+#resultado div {
+  /* background-color: red; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(164, 140, 140);
+  margin-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 10px;
+}
+#resultado div button {
+  /* background-color: red; */
+  background-color: rgb(178, 32, 32);
+  border: none;
+  outline: none;
+  /* padding: 10px; */
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+  /* transition: 0.2s; */
+}
+#resultado div button:hover {
+  cursor: pointer;
+  border: solid 1px rgb(121, 21, 21);
+  background-color: rgb(202, 52, 52);
+}
+#resultado div:hover {
+  cursor: pointer;
+}
+
+.tachado {
+  text-decoration: line-through;
+}
+
